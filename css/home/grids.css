@@ -1,0 +1,77 @@
+.grid-bg {
+    background-color: #111111;
+    padding: 30px;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.cards h2 {
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cards h2 span {
+    color: #e9c46a;
+}
+
+.grid-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.grid-lista li img {
+    margin-bottom: 2rem;
+    border: 3px solid transparent;
+}
+
+.grid-lista li img.ativado {
+    transition: .3s;
+    border: 3px solid #e9c46a;
+}
+
+.grid-descriçao section h3 {
+    font-size: 2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.grid-descriçao section span {
+    display: block;
+    font-size: 1.175rem;
+    margin-bottom: 30px;
+    color: #e9c46a;
+}
+
+.grid-descriçao section p {
+    margin-bottom: 2rem;
+}
+
+.js-tabcontent section {
+    display: none;
+}
+
+.js-tabcontent section.ativo {
+    display: block !important;
+    animation: show .5s forwards;
+}
+
+@keyframes show {
+    from {
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@media (max-width: 800px) {
+    .cards h2 {
+        font-size: 3rem;
+    }
+}

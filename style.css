@@ -1,0 +1,28 @@
+/*
+Theme Name: Galente Pets
+Theme URI: http://galantepets.com
+Author: Raphael Pimenta
+Author URI: http://raphaelpimenta.com/
+Description: Tema criado para o espaço pets da Estética Galante Pet's
+Version: 1.0
+*/
+
+/* Global */
+@import 'css/global/reset.css';
+@import 'css/global/componentes.css';
+@import 'css/global/header.css';
+@import 'css/global/footer.css';
+
+/* Home */
+@import 'css/home/introducao.css';
+@import 'css/home/serviços.css';
+@import 'css/home/grids.css';
+@import 'css/home/depoimento.css';
+@import 'css/home/planos.css';
+
+/* Planos */
+@import 'css/planos/vantagens.css';
+@import 'css/planos/perguntas.css';
+
+/* Contato */
+@import 'css/contato/contato.css';

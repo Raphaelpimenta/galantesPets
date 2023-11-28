@@ -1,0 +1,54 @@
+.container {
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.btn-padrao {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 2px solid #e9c46a;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #111111;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    cursor: pointer;
+    /* background-color: #fcf6bd; */
+}
+  
+.btn-padrao:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #e9c46a;
+    z-index: -1;
+}
+  
+.btn-padrao:hover, .btn-padrao:focus {
+    color: #111111;
+}
+  
+.btn-padrao:hover:before, .btn-padrao:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+  
+.btn-padrao:active {
+    transform: scale(0.9);
+}
