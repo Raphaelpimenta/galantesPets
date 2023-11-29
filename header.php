@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | DogShow</title>
+    <!-- <title>Home | DogShow</title> -->
+    <title><?php bloginfo('name'); ?></title>
     <link rel="icon" href="./img/icones/cachorro-icon.png" type="image/svg+xml">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 
     <!-- Inicio Wordpress Header -->
     <?php wp_head(); ?>
