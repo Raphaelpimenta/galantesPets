@@ -24,9 +24,9 @@
                 <div>
                     <button id="btn-mobile"><span id="hamburguer"></span></button>
                     <ul class="header-menu">
-                        <li><a href="./index.html">Início</a></li>
-                        <li><a href="./planos.html">Planos</a></li>
-                        <li><a href="./contatos.html">Contatos</a></li>
+                        <li><a href="/home/">Início</a></li>
+                        <li><a href="/planos/">Planos</a></li>
+                        <li><a href="/contatos/">Contatos</a></li>
                     </ul>
                 </div>
             </nav>

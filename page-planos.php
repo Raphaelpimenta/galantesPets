@@ -1,33 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planos | DogShow</title>
-    <link rel="icon" href="./img/icones/cachorro-icon.png" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header-bg">
-        <div class="header container">
-            <a href="./index.html" class="logo">
-                <img src="./img/icones/logo.png" alt="Logo">
-                <p>DogShow</p>
-            </a>
-
-            <nav class="js-menu">
-                <div>
-                    <button id="btn-mobile"><span id="hamburguer"></span></button>
-                    <ul class="header-menu">
-                        <li><a href="./index.html">Início</a></li>
-                        <li><a href="./planos.html">Planos</a></li>
-                        <li><a href="./contatos.html">Contatos</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-        </div>
-    </header> -->
 
     <?php 
     // Template Name: Planos
@@ -141,49 +111,5 @@
 
     </article>
 
-    <!-- <footer class="footer-bg">
-        <div class="footer container">
-            <h2>Contatos<span>.</span></h2>
-            <div class="footer-texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat pariatur recusandae, explicabo veniam repellat dolore eos incidunt, doloremque debitis consequuntur inventore nostrum aliquam reprehenderit.</p>
-            </div>
-            <div class="footer-lista">
-                
-
-                <nav>
-                    <ul>
-                        <li class="titulo-footer">Fale Conosco</li>
-                        <li><a href="#">+55 11 1234-5678</a></li>
-                        <li><a href="#">contato@dogshow.com</a></li>
-                        <li><a href="#">Rua Ali Perto, 45</a></li>
-                        <li><a href="#">São Paulo - SP</a></li>
-                    </ul>
-                </nav>
-
-                <nav>
-                    <ul>
-                        <li class="titulo-footer">Informações</li>
-                        <li><a href="#">Politica</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Equipe</a></li>
-                        <li><a href="#">Termos e Condições</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="container rodape">
-            <div class="icones">
-                <img src="./img/icones/facebook.png" alt="Ícone">
-                <img src="./img/icones/google.png" alt="Ícone">
-                <img src="./img/icones/instagram.png" alt="Ícone">
-            </div>
-            <p>© 2023 DogShow. Alguns direitos reservados.</p>
-        </div>
-    </footer>
-
-    <script type="module" src="./js/script.js"></script>
-    
-</body>
-</html> -->
 
 <?php get_footer(); ?>
