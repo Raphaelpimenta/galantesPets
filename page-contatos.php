@@ -1,10 +1,12 @@
 
 
-    <?php 
-    // Template Name: Contatos
-    ?>
+<?php 
+// Template Name: Contatos
+?>
 
 <?php get_header(); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <main class="forms">
         <div class="titulo-bg">
@@ -81,5 +83,6 @@
         </div>
     </section>
 
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>

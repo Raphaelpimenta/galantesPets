@@ -1,9 +1,11 @@
 
-    <?php 
-    // Template Name: Planos
-    ?>
+<?php 
+// Template Name: Planos
+?>
 
 <?php get_header(); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <div class="planos-bg">
         <article class="container">
@@ -111,5 +113,6 @@
 
     </article>
 
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>
