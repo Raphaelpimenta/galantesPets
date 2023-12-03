@@ -11,8 +11,8 @@ function the_field($key, $page_id = 0) {
 }
 
 // carrega os campos personalizados do CMB2
-require_once get_template_directory() . '/cmb2/planos.php';
-require_once get_template_directory() . '/cmb2/contatos.php';
+// require_once get_template_directory() . '/cmb2/planos.php';
+// require_once get_template_directory() . '/cmb2/contatos.php';
 require_once get_template_directory() . '/cmb2/home.php';
 
 

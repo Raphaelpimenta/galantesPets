@@ -10,13 +10,16 @@
     <main class="introduçao-bg">
         <div class="introducao container">
             <div class="introducao-texto">
-                <h1>A diversão começa na DogShow<span>.</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at aliquam vero, quod consectetur placeat incidunt suscipit cumque neque inventore.</p>
+                <!-- <h1>A diversão começa na DogShow<span>.</span></h1> -->
+                <h1><?php the_field('titulo_introducao'); ?><span>.</span></h1>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at aliquam vero, quod consectetur placeat incidunt suscipit cumque neque inventore.</p> -->
+                <p><?php the_field('subtitulo_introducao'); ?></p>
                 <button class="btn-padrao">Escolha seu plano</button>
             </div>
             <picture>
-                <source media="(max-width: 800px)" srcset="./img/fotos/intro-responsivo.jpg">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/introducao.jpg" alt="Foto Cachorro">
+                <!-- <source media="(max-width: 800px)" srcset="./img/fotos/intro-responsivo.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/introducao.jpg" alt="Foto Cachorro"> -->
+                <img src="<?php the_field('imagem_introducao'); ?>" alt="Foto Cachorro"> 
             </picture>
         </div>
     </main>
