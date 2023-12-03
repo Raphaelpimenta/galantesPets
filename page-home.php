@@ -16,7 +16,7 @@
             </div>
             <picture>
                 <source media="(max-width: 800px)" srcset="./img/fotos/intro-responsivo.jpg">
-                <img src="./img/fotos/introducao.jpg" alt="Foto Cachorro">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/introducao.jpg" alt="Foto Cachorro">
             </picture>
         </div>
     </main>
@@ -26,17 +26,17 @@
 
         <ul>
             <li>
-                <img src="./img/fotos/banho-tosa.jpg" alt="Banho e tosa">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/banho-tosa.jpg" alt="Banho e tosa">
                 <h3>Banho e Tosa</h3>
                 <span>R$ 39,00</span>
             </li>
             <li>
-                <img src="./img/fotos/creche.jpg" alt="Creche">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/creche.jpg" alt="Creche">
                 <h3>Creche</h3>
                 <span>R$ 49,00</span>
             </li>
             <li>
-                <img src="./img/fotos/hotel.jpg" alt="Hotel">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/hotel.jpg" alt="Hotel">
                 <h3>Hotel</h3>
                 <span>R$ 59,00</span>
             </li>
