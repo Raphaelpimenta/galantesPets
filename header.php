@@ -13,11 +13,15 @@
     <!-- Inicio Wordpress Header -->
 </head>
 <body>
+
+<!-- <?php $header = get_page_by_title('header');?> -->
+
     <header class="header-bg">
         <div class="header container">
             <a href="./index.html" class="logo">
-                <img src="./img/icones/logo.png" alt="Logo">
-                <p>DogShow</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icones/logo.png" alt="Logo">
+                <p><?php bloginfo('name'); ?></p>
+
             </a>
 
             <nav class="js-menu">

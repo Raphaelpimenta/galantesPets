@@ -1,6 +1,6 @@
 <?php 
 
-add_action('cmb2_admin_init', 'cmb2_fields_home', 'cmb2_fields_home_imagem');
+add_action('cmb2_admin_init', 'cmb2_fields_home');
 
 function cmb2_fields_home(){
     $cmb = new_cmb2_box([
@@ -36,31 +36,6 @@ function cmb2_fields_home(){
     ]);
 
 }
-
-
-// function cmb2_fields_home_imagem(){
-//     $cmb = new_cmb2_box([
-//         'id' => 'home_box2',
-//         'title' => 'Introdução Imagem',
-//         'object_types' => ['page'],
-//         'show_on' => [
-//             'key' => 'page-template',
-//             'value' => 'page-home.php',
-//         ],
-//     ]);
-
-//     $cmb->add_field([
-//         'name' => 'Imagem da Introdução',
-//         'id' => 'imagem_introducao',
-//         'type' => 'file',
-//         'options' => [
-//             'url' => false,
-//         ],
-//     ]);
-
-
-// }
-
 
 
 ?>
