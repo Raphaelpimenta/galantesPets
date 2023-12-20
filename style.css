@@ -26,3 +26,9 @@ Version: 1.0
 
 /* Contato */
 @import 'css/contato/contato.css';
+
+/* Estilos ADM Wordpress */
+
+.customize-support .header {
+	margin-top: 32px;
+}

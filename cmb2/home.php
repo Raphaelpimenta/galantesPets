@@ -27,6 +27,12 @@ function cmb2_fields_home(){
     ]);
 
     $cmb->add_field([
+        'name' => 'Botão Introdução',
+        'id' => 'btn_introducao',
+        'type' => 'text',
+    ]);
+
+    $cmb->add_field([
         'name' => 'Imagem da Introdução',
         'id' => 'imagem_introducao',
         'type' => 'file',
@@ -35,7 +41,100 @@ function cmb2_fields_home(){
         ],
     ]);
 
+    //Serviços
+    // $item_servicos = $cmb->add_field([
+    //     'name' => 'Item Serviços',
+    //     'id' => 'item_servicos',
+    //     'type' => 'group',
+    //     'repeatable' => true,
+    //     'options' => [
+    //         'sortable' => true,
+    //         'add_button' => 'Adicionar Item',
+    //         'remove_button' => 'Remover Item'
+    //     ],
+    // ]);
+
+    //Imagem 1
+    $cmb->add_field([
+        'name' => 'Imagem Serviço 1',
+        'id' => 'img_servico1',
+        'type' => 'file',
+        'options' => [
+            'url' => false,
+        ],
+    ]);
+
+    //Título
+    $cmb->add_field([
+        'name' => 'Título do Serviço 1',
+        'id' => 'titulo_servico1',
+        'type' => 'text',
+    ]);
+
+    //Preço
+    $cmb->add_field([
+        'name' => 'Preço do serviço 1',
+        'id' => 'preco_servico1',
+        'type' => 'text',
+    ]);
+
+
+
+    //Imagem 2
+    $cmb->add_field([
+        'name' => 'Imagem Serviço 2',
+        'id' => 'img_servico2',
+        'type' => 'file',
+        'options' => [
+            'url' => false,
+        ],
+    ]);
+
+    //Título
+    $cmb->add_field([
+        'name' => 'Título do Serviço 2',
+        'id' => 'titulo_servico2',
+        'type' => 'text',
+    ]);
+
+    //Preço
+    $cmb->add_field([
+        'name' => 'Preço do serviço 2',
+        'id' => 'preco_servico2',
+        'type' => 'text',
+    ]);
+
+
+
+
+
+    //Imagem 3
+    $cmb->add_field([
+        'name' => 'Imagem Serviço 3',
+        'id' => 'img_servico3',
+        'type' => 'file',
+        'options' => [
+            'url' => false,
+        ],
+    ]);
+
+    //Título
+    $cmb->add_field([
+        'name' => 'Título do Serviço 3',
+        'id' => 'titulo_servico3',
+        'type' => 'text',
+    ]);
+
+    //Preço
+    $cmb->add_field([
+        'name' => 'Preço do serviço 3',
+        'id' => 'preco_servico3',
+        'type' => 'text',
+    ]);
+
+
 }
+
 
 
 ?>

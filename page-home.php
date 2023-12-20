@@ -14,7 +14,7 @@
                 <h1><?php the_field('titulo_introducao'); ?><span>.</span></h1>
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at aliquam vero, quod consectetur placeat incidunt suscipit cumque neque inventore.</p> -->
                 <p><?php the_field('subtitulo_introducao'); ?></p>
-                <button class="btn-padrao">Escolha seu plano</button>
+                <button class="btn-padrao"><a href="/planos/"><?php the_field('btn_introducao');?></a></button>
             </div>
             <picture>
                 <!-- <source media="(max-width: 800px)" srcset="./img/fotos/intro-responsivo.jpg">
@@ -28,21 +28,21 @@
         <h2 class="container">Serviços<span>.</span></h2>
 
         <ul>
-            <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/banho-tosa.jpg" alt="Banho e tosa">
-                <h3>Banho e Tosa</h3>
-                <span>R$ 39,00</span>
-            </li>
-            <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/creche.jpg" alt="Creche">
-                <h3>Creche</h3>
-                <span>R$ 49,00</span>
-            </li>
-            <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/hotel.jpg" alt="Hotel">
-                <h3>Hotel</h3>
-                <span>R$ 59,00</span>
-            </li>
+                <li>
+                    <img src="<?php the_field('img_servico1'); ?>" alt="Serviço">
+                    <h3><?php the_field('titulo_servico1'); ?></h3>
+                    <span><?php the_field('preco_servico1'); ?></span>
+                </li>
+                <li>
+                    <img src="<?php the_field('img_servico2'); ?>" alt="Serviço">
+                    <h3><?php the_field('titulo_servico2'); ?></h3>
+                    <span><?php the_field('preco_servico2'); ?></span>
+                </li>
+                <li>
+                    <img src="<?php the_field('img_servico3'); ?>" alt="Serviço">
+                    <h3><?php the_field('titulo_servico3'); ?></h3>
+                    <span><?php the_field('preco_servico3'); ?></span>
+                </li>
         </ul>
     </article>
 
