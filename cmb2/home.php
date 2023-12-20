@@ -148,6 +148,12 @@ function cmb2_fields_home_espacos(){
     ]);
 
     $cmb->add_field([
+        'name' => 'Imagem 1',
+        'id' => 'img_nosso_espaco',
+        'type' => 'file',
+        'options' => [
+            'url' => false,
+        ],
         
     ]);
 
