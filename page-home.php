@@ -55,20 +55,23 @@
                     <li>
                         <picture>
                             <source media="(max-width: 800px)" srcset="./img/fotos/parque.jpg">
-                            <img src="./img/fotos/petPlay.jpg" class="ativado" alt="Parque para cachorro">
+                            <!-- <img src="./img/fotos/petPlay.jpg" class="ativado" alt="Parque para cachorro"> -->
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/petPlay.jpg" class="ativado" alt="Parque para cachorro">
                         </picture>
                     </li>
                     <li>
                         <picture>
                             <source media="(max-width: 800px)" srcset="./img/fotos/adestramento-pet.jpg">
-                            <img src="./img/fotos/adestramento.jpg" alt="Adestramento canino">
+                            <!-- <img src="./img/fotos/adestramento.jpg" alt="Adestramento canino"> -->
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/adestramento.jpg" alt="Adestramento canino">
                         </picture>
                     </li>
                     
                     <li>
                         <picture>
                             <source media="(max-width: 800px)" srcset="./img/fotos/passeio.jpg">
-                            <img src="./img/fotos/passeador-cao.jpg" alt="Dog Walker">
+                            <!-- <img src="./img/fotos/passeador-cao.jpg" alt="Dog Walker"> -->
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/passeador-cao.jpg" alt="Dog Walker">
                         </picture>
                     </li>
                 </ul>
