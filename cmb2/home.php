@@ -163,6 +163,12 @@ function cmb2_fields_home_espacos(){
     ]);
 
     $cmb->add_field([
+        'name' => 'Subtítulo 1',
+        'id' => 'subtitulo_nosso_espaco1',
+        'type' => 'text',
+    ]);
+
+    $cmb->add_field([
         'name' => 'Descrição 1',
         'id' => 'descricao_nosso_espaco1',
         'type' => 'textarea_small',

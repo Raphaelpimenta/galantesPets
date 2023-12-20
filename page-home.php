@@ -78,11 +78,14 @@
     
                 <div class="grid-descriçao js-tabcontent">
                     <section>
-                        <h3>Parque Pet</h3>
-                        <span>Diversão garantida para cães</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellat, magni, ipsum voluptate quia accusantium neque consequatur illo commodi iusto, error vitae itaque possimus quam. Praesentium dolorum assumenda fugit totam.</p>
+                        <!-- <h3>Parque Pet</h3> -->
+                        <h3><?php the_field('titulo_nosso_espaco1'); ?></h3>
+                        <span><?php the_field('subtitulo_nosso_espaco1'); ?></span>
+                        <p><?php the_field('descricao_nosso_espaco1'); ?></p>
+                        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellat, magni, ipsum voluptate quia accusantium neque consequatur illo commodi iusto, error vitae itaque possimus quam. Praesentium dolorum assumenda fugit totam.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum deleniti neque, necessitatibus sed maiores ad repellendus nihil sapiente laudantium quia veritatis recusandae magni officiis unde minus iure non aliquam!</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p> -->
+                        
                         <button class="btn-padrao">Saiba mais</button>
                         
                     </section>
