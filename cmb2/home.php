@@ -13,7 +13,7 @@ function cmb2_fields_home(){
         ],
     ]);
 
-
+    //Introdução
     $cmb->add_field([
         'name' => 'Título Introdução',
         'id' => 'titulo_introducao',
@@ -41,18 +41,23 @@ function cmb2_fields_home(){
         ],
     ]);
 
-    //Serviços
-    // $item_servicos = $cmb->add_field([
-    //     'name' => 'Item Serviços',
-    //     'id' => 'item_servicos',
-    //     'type' => 'group',
-    //     'repeatable' => true,
-    //     'options' => [
-    //         'sortable' => true,
-    //         'add_button' => 'Adicionar Item',
-    //         'remove_button' => 'Remover Item'
-    //     ],
-    // ]);
+
+}
+
+
+//Serviços
+add_action('cmb2_admin_init', 'cmb2_fields_home_servicos');
+
+function cmb2_fields_home_servicos(){
+    $cmb = new_cmb2_box([
+        'id' => 'home_box2',
+        'title' => 'Serviços',
+        'object_types' => ['page'],
+        'show_on' => [
+            'key' => 'page-template',
+            'value' => 'page-home.php',
+        ],
+    ]);
 
     //Imagem 1
     $cmb->add_field([
@@ -77,8 +82,6 @@ function cmb2_fields_home(){
         'id' => 'preco_servico1',
         'type' => 'text',
     ]);
-
-
 
     //Imagem 2
     $cmb->add_field([
@@ -105,9 +108,6 @@ function cmb2_fields_home(){
     ]);
 
 
-
-
-
     //Imagem 3
     $cmb->add_field([
         'name' => 'Imagem Serviço 3',
@@ -131,6 +131,26 @@ function cmb2_fields_home(){
         'id' => 'preco_servico3',
         'type' => 'text',
     ]);
+}
+
+//Nosso Espaço
+add_action('cmb2_admin_init', 'cmb2_fields_home_espacos');
+
+function cmb2_fields_home_espacos(){
+    $cmb = new_cmb2_box([
+        'id' => 'home_box3',
+        'title' => 'Nosso Espaço',
+        'object_types' => ['page'],
+        'show_on' => [
+            'key' => 'page-template',
+            'value' => 'page-home.php',
+        ],
+    ]);
+
+    $cmb->add_field([
+        
+    ]);
+
 
 
 }
