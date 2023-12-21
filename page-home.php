@@ -54,57 +54,60 @@
                 <ul class="grid-lista js-tabmenu">
                     <li>
                         <picture>
-                            <source media="(max-width: 800px)" srcset="./img/fotos/parque.jpg">
+                            <!-- <source media="(max-width: 800px)" srcset="./img/fotos/parque.jpg"> -->
+                            <!-- <source media="(max-width: 800px)" srcset="<?php echo get_template_directory_uri(); ?>/img/fotos/parque.jpg"> -->
+                            
                             <!-- <img src="./img/fotos/petPlay.jpg" class="ativado" alt="Parque para cachorro"> -->
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/petPlay.jpg" class="ativado" alt="Parque para cachorro">
+                            <img src="<?php the_field('img_nosso_espaco1'); ?>" class="ativado" alt="Parque para cachorro">
                         </picture>
                     </li>
                     <li>
                         <picture>
-                            <source media="(max-width: 800px)" srcset="./img/fotos/adestramento-pet.jpg">
+                            <!-- <source media="(max-width: 800px)" srcset="./img/fotos/adestramento-pet.jpg"> -->
+                            <!-- <source media="(max-width: 800px)" srcset="<?php echo get_template_directory_uri(); ?>/img/fotos/adestramento-pet.jpg"> -->
                             <!-- <img src="./img/fotos/adestramento.jpg" alt="Adestramento canino"> -->
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/adestramento.jpg" alt="Adestramento canino">
+
+
+                            <img src="<?php the_field('img_nosso_espaco2');  ?>" alt="Adestramento canino">
                         </picture>
                     </li>
                     
                     <li>
                         <picture>
-                            <source media="(max-width: 800px)" srcset="./img/fotos/passeio.jpg">
+                            <!-- <source media="(max-width: 800px)" srcset="./img/fotos/passeio.jpg"> -->
+                            <!-- <source media="(max-width: 800px)" srcset="<?php echo get_template_directory_uri(); ?>/img/fotos/passeio.jpg"> -->
                             <!-- <img src="./img/fotos/passeador-cao.jpg" alt="Dog Walker"> -->
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/fotos/passeador-cao.jpg" alt="Dog Walker">
+
+                            <img src="<?php the_field('img_nosso_espaco3'); ?>" alt="Dog Walker">
                         </picture>
                     </li>
                 </ul>
     
                 <div class="grid-descriçao js-tabcontent">
                     <section>
-                        <!-- <h3>Parque Pet</h3> -->
+                        
                         <h3><?php the_field('titulo_nosso_espaco1'); ?></h3>
                         <span><?php the_field('subtitulo_nosso_espaco1'); ?></span>
                         <p><?php the_field('descricao_nosso_espaco1'); ?></p>
-                        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellat, magni, ipsum voluptate quia accusantium neque consequatur illo commodi iusto, error vitae itaque possimus quam. Praesentium dolorum assumenda fugit totam.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum deleniti neque, necessitatibus sed maiores ad repellendus nihil sapiente laudantium quia veritatis recusandae magni officiis unde minus iure non aliquam!</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p> -->
+                        
                         
                         <button class="btn-padrao">Saiba mais</button>
                         
                     </section>
     
                     <section>
-                        <h3>Adestramento Canino</h3>
-                        <span>Cuidar do seu amigo faz bem para todos</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum deleniti neque, necessitatibus sed maiores ad repellendus nihil sapiente laudantium quia veritatis recusandae magni officiis unde minus iure non aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id necessitatibus voluptas, nostrum deserunt harum similique iure.</p>
+                        <h3><?php the_field('titulo_nosso_espaco2'); ?></h3>
+                        <span><?php the_field('subtitulo_nosso_espaco2'); ?></span>
+                        <p><?php the_field('descricao_nosso_espaco2'); ?></p>
+                       
                         <button class="btn-padrao">Saiba mais</button>
                     </section>
 
                     <section>
-                        <h3>Passeador de Cães</h3>
-                        <span>Contrate um de nossos colaboradores para passear com seu amigo</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellat, magni, ipsum voluptate quia accusantium neque consequatur illo commodi iusto, error vitae itaque possimus quam. Praesentium dolorum assumenda fugit totam.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum deleniti neque, necessitatibus sed maiores ad repellendus nihil sapiente laudantium quia veritatis recusandae magni officiis unde minus iure non aliquam!</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque accusantium fugiat numquam ut minima vero natus cum praesentium! Modi recusandae doloremque quae ea minus blanditiis delectus pariatur autem ullam voluptates.</p>
+                        <h3><?php the_field('titulo_nosso_espaco3'); ?></h3>
+                        <span><?php the_field('subtitulo_nosso_espaco3'); ?></span>
+                        <p><?php the_field('descricao_nosso_espaco3'); ?></p>
+                
                         <button class="btn-padrao">Saiba mais</button>
                         
                     </section>
@@ -117,17 +120,17 @@
 
     <section class="depoimento">
         <div>
-            <img src="./img/fotos/depoimento.jpg" alt="Ana Júlia com cachorros">
+            <img src="<?php the_field('img_depoimento')?>" alt="Ana Júlia com cachorros">
         </div>
         <div class="depoimento-texto">
             <blockquote>
-                <p>Estou absolutamente impressionada com o atendimento e cuidado que o petshop proporcionou ao meu querido cachorrinho. Sem dúvida, meu pet encontrou um lugar especial para ser mimado e bem cuidado. Recomendo fortemente!</p>
+                <p><?php the_field('text_depoimento')?></p>
             </blockquote>
-            <span>Ana Júlia</span>
+            <span><?php the_field('autor_depoimento')?></span>
         </div>
     </section>
 
-    <article class="container">
+    <!-- <article class="container">
         <div class="planos">
             <h2>Planos<span>.</span></h2>
 
@@ -158,7 +161,7 @@
             </div>
 
         </div>
-    </article>
+    </article> -->
 
     <?php endwhile; else: endif; ?>   
 
